@@ -1,0 +1,32 @@
+{
+  "name": "YouTrack Ideal Days",
+  "version": "1.0",
+  "description": "Get ideals days from YouTrack",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "declarativeContent",
+    "https://*.myjetbrains.com/youtrack/issues"
+  ],
+  "browser_action": {
+    "default_title": "YouTrack Ideal Days",
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  }
+}
